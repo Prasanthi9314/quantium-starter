@@ -27,13 +27,14 @@ app.layout = html.Div(
     children=[
 
         html.H1(
-            "Soul Foods - Pink Morsel Sales Dashboard",
-            style={
-                "textAlign": "center",
-                "color": "#2c3e50",
-                "marginBottom": "10px"
-            }
-        ),
+    "Soul Foods - Pink Morsel Sales Dashboard",
+    id="header",
+    style={
+        "textAlign": "center",
+        "color": "#2c3e50",
+        "marginBottom": "10px"
+    }
+),
 
         html.P(
             "Use the filter below to view sales data by region.",
